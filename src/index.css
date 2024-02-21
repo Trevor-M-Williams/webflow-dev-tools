@@ -1,0 +1,35 @@
+.dev-tools {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+  display: none;
+  background: white;
+  padding: 0.5rem;
+  border: 1px solid #eee;
+  border-radius: 0.25rem;
+}
+.dev-tools.active {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.dev-tools button {
+  padding: 0.5rem 0.75rem;
+  background-color: #aaa;
+  color: white;
+}
+
+.font-selecter {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.color-picker {
+  width: 100%;
+  border: none;
+  background: none;
+  padding: 0px;
+  cursor: pointer;
+}
