@@ -35,16 +35,13 @@ function initDevTools(): void {
 
 const fonts: string[] = [
   'Cormorant',
-  'Crimson Text',
   'Exo',
-  'Fira Sans',
-  'Lato',
   'Inter Tight',
-  'IBM Plex Sans',
   'IBM Plex Serif',
   'Merriweather',
   'Montserrat',
   'Nunito',
+  'Nunito Sans',
   'Open Sans',
   'Playfair Display',
   'Poppins',
